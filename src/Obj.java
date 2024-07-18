@@ -1,6 +1,8 @@
 package src;
 
-class Obj {
+import java.io.Serializable;
+
+class Obj implements Serializable {
     private int a;
     private String b;
 
